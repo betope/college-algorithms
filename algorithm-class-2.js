@@ -23,3 +23,11 @@ a1 = a * b;
 a2 = b * d;
 area = a1 + a2
 console.log(`The total area of the rectangles are: ${area}`)
+
+// Exercise 4
+let h, r, volume, base
+r = prompt("What is the height of the cilinder?")
+r = prompt("What is the raid of the radius of the cilinder?")
+volume = h * 3.14 * (r * r)
+base = 3.14 * (r * r)
+console.log(`The cilinder base is ${base} and its volume is ${volume}`)
