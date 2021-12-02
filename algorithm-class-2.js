@@ -31,3 +31,17 @@ r = prompt("What is the raid of the radius of the cilinder?")
 volume = h * 3.14 * (r * r)
 base = 3.14 * (r * r)
 console.log(`The cilinder base is ${base} and its volume is ${volume}`)
+
+// Exercise 5
+let a, b, c, delta, x1, x2;
+a = prompt("Type the value of A");
+b = prompt("Type the value of B");
+c = prompt("Type the value of C");
+delta = b * b - 4 * a * c
+if(delta < 0) {
+	console.log("The square root is negative: " + delta)
+} else {
+	x1 = (-b) + Math.sqrt(delta) / (2 * a);
+	x2 = (-b) - Math.sqrt(delta) / (2 * a);
+}
+console.log("The roots are: " + x1 + " and, " + x2)
