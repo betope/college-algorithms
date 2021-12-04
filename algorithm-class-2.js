@@ -50,6 +50,7 @@ console.log("The roots are: " + x1 + " and, " + x2)
 // Exercise 6
 // Exercise 7
 // Exercise 8
+
 // Exercise 9
 let a, b, res;
 a = Number(prompt("Type the value of A"))
@@ -59,4 +60,10 @@ console.log(res)
 // Exercise 10
 // Exercise 11
 // Exercise 12
+
 // Exercise 13
+let area, base, height;
+base = prompt("Type the value of the base");
+height = prompt("Type the value of the height");
+area = base * height / 2
+console.log(`The triangle area is: ${area}`)
