@@ -45,3 +45,18 @@ if(delta < 0) {
 	x2 = (-b) - Math.sqrt(delta) / 2 * a;
 }
 console.log("The roots are: " + x1 + " and, " + x2)
+
+// Exercise 5
+// Exercise 6
+// Exercise 7
+// Exercise 8
+// Exercise 9
+let a, b, res;
+a = Number(prompt("Type the value of A"))
+b = Number(prompt("Type the value of B"))
+res = a % b
+console.log(res)
+// Exercise 10
+// Exercise 11
+// Exercise 12
+// Exercise 13
