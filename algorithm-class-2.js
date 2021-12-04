@@ -41,7 +41,7 @@ delta = b * b - 4 * a * c
 if(delta < 0) {
 	console.log("The square root is negative: " + delta)
 } else {
-	x1 = (-b) + Math.sqrt(delta) / (2 * a);
-	x2 = (-b) - Math.sqrt(delta) / (2 * a);
+	x1 = (-b) + Math.sqrt(delta) / 2 * a;
+	x2 = (-b) - Math.sqrt(delta) / 2 * a;
 }
 console.log("The roots are: " + x1 + " and, " + x2)
