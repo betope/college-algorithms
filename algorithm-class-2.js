@@ -68,6 +68,9 @@ div = a / b;
 rem = a % b;
 console.log(`The sum between A and B is: ${add}, the subtraction is: ${sub}, the multiplication is: ${mul}, the division is: ${div} and the remainder is: ${rem}`);
 // Exercise 12
+let num;
+num = Number(prompt("Type any decimal number"));
+console.log(num * 3)
 
 // Exercise 13
 let area, base, height;
