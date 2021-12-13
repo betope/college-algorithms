@@ -46,7 +46,6 @@ if(delta < 0) {
 }
 console.log("The roots are: " + x1 + " and, " + x2)
 
-// Exercise 5
 // Exercise 6
 // Exercise 7
 // Exercise 8
@@ -59,6 +58,15 @@ res = a % b
 console.log(res)
 // Exercise 10
 // Exercise 11
+let a, b, add, sub, mul, div, rem;
+a = Number(prompt("Type the value of A"));
+b = Number(prompt("Type the value of B"));
+add = a + b;
+sub = a - b;
+mul = a * b;
+div = a / b;
+rem = a % b;
+console.log(`The sum between A and B is: ${add}, the subtraction is: ${sub}, the multiplication is: ${mul}, the division is: ${div} and the remainder is: ${rem}`);
 // Exercise 12
 
 // Exercise 13
