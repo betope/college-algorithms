@@ -48,6 +48,11 @@ console.log("The roots are: " + x1 + " and, " + x2)
 
 // Exercise 6
 // Exercise 7
+let dolar, real, total
+dolar = Number(prompt("Type the current dolar value separate by dots");
+real = Number(prompt("How much do you want to convert to dolar?"));
+total = dolar * real;
+console.log(`The value in dollar is: ${total}`);
 // Exercise 8
 
 // Exercise 9
