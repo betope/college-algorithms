@@ -54,6 +54,11 @@ real = Number(prompt("How much do you want to convert to dolar?"));
 total = dolar * real;
 console.log(`The value in dollar is: ${total}`);
 // Exercise 8
+let hour, minutes, total;
+hour = Number(prompt("How many hours you want to convert?"))
+minutes = Number(prompt("How many minutes you want to convert?"));
+total = hour * 60 + minutes;
+console.log(`${total} minutes of the day have passed till now.`);
 
 // Exercise 9
 let a, b, res;
@@ -62,6 +67,8 @@ b = Number(prompt("Type the value of B"))
 res = a % b
 console.log(res)
 // Exercise 10
+
+
 // Exercise 11
 let a, b, add, sub, mul, div, rem;
 a = Number(prompt("Type the value of A"));
@@ -72,6 +79,7 @@ mul = a * b;
 div = a / b;
 rem = a % b;
 console.log(`The sum between A and B is: ${add}, the subtraction is: ${sub}, the multiplication is: ${mul}, the division is: ${div} and the remainder is: ${rem}`);
+
 // Exercise 12
 let num;
 num = Number(prompt("Type any decimal number"));
