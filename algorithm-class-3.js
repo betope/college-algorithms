@@ -1,3 +1,4 @@
+// Exercise 1
 let initialKm, finalKm, qtL, priceL;
 initialKm = Number(prompt("Type the initial KM"));
 finalKm = Number(prompt("Type the final KM"));
@@ -11,3 +12,12 @@ function calculateSpent() {
 	console.log(`The distance covered was: ${distance}, the average consumption was: ${medSpent}, and the spent value was: ${spentVal}`);
 }
 calculateSpent();
+
+// Exercise 2
+function calcArea(area, sideA, sideB) {
+	sideA = Number(prompt("Type the value of A"));
+	sideB = Number(prompt("Type the value of B"));
+	area = sideA * sideB;
+	console.log(`The rectangle area is: ${area}`)
+}
+calcArea();
