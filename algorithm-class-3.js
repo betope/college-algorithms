@@ -34,6 +34,7 @@ function calcPurchase() {
 }
 calcPurchase();
 // Exercise 4
+
 // Exercise 5
 // Exercise 6
 // Exercise 7
