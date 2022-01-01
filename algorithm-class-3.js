@@ -59,6 +59,13 @@ function calcAll() {
 calcAll();
 // Exercise 5
 // Exercise 6
+let price;
+price = Number(prompt("Type the product price"));
+function calcDiscount(discount) {
+	discount = price - 9 * price / 100;
+	console.log(discount)
+}
+calcDiscount();
 // Exercise 7
 // Exercise 8
 // Exercise 9
