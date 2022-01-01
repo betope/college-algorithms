@@ -68,5 +68,18 @@ function calcDiscount(discount) {
 calcDiscount();
 // Exercise 7
 // Exercise 8
+let coins = [];
+coins.push(Number(prompt("Type how many coins of 0,25 cents.")));
+coins.push(Number(prompt("Type how many coins of 0,10 cents.")));
+coins.push(Number(prompt("Type how many coins of 0,05 cents.")));
+
+function safeValue() {
+	twentyFive = coins[0];
+	ten = coins[1];
+	five = coins[2];
+	console.log(twentyFive, ten, five)
+}
+safeValue();
+console.log(coins)
 // Exercise 9
 // Exercise 10
