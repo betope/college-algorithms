@@ -72,14 +72,16 @@ let coins = [];
 coins.push(Number(prompt("Type how many coins of 0,25 cents.")));
 coins.push(Number(prompt("Type how many coins of 0,10 cents.")));
 coins.push(Number(prompt("Type how many coins of 0,05 cents.")));
-
 function safeValue() {
-	twentyFive = coins[0];
-	ten = coins[1];
-	five = coins[2];
-	console.log(twentyFive, ten, five)
+	twentyFive = 0.25;
+	ten = 0.10;
+	five = 0.05;
+  tFive = coins[0] * twentyFive;
+  ten10 = coins[1] * ten;
+  five5 = coins[2] * five;
+  safe = tFive + ten10 + five5;
+  console.log(`You have in the safe ${coins[0]} of 0,25, ${coins[1]} of 0,10 and ${coins[2]} od 0,05, with a total value of ${safe} in the safe.`);
 }
 safeValue();
-console.log(coins)
 // Exercise 9
 // Exercise 10
