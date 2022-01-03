@@ -108,3 +108,10 @@ function imcCalc(imc, weight, height) {
 }
 imcCalc()
 // Exercise 10
+function dolarConvert(totalReal, dolar) {
+	totalReal = Number(prompt("Type how much do you want to convert to dollars"));
+  dolar = Number(prompt("Type the dollar quote"));
+  total = totalReal * dolar;
+  console.log(`You'll have a total of: ${total} dollars.`)
+}
+dolarConvert();
