@@ -100,4 +100,11 @@ function safeValue() {
 }
 safeValue();
 // Exercise 9
+function imcCalc(imc, weight, height) {
+	weight = Number(prompt("Type your Weight"));
+  height = Number(prompt("Type your Height"));
+  imc = weight / (height * height);
+  console.log(`Your IMC is: ${imc}`)
+}
+imcCalc()
 // Exercise 10
