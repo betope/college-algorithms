@@ -33,6 +33,7 @@ function calcPurchase() {
 	console.log(`You'll pay a total of: ${finalPay}, in ${numInstallments} installments each one with the value of: ${instValue}`)
 }
 calcPurchase();
+
 // Exercise 4
 let a, b, c;
 a = Number(prompt("Type the value of A"));
@@ -57,6 +58,7 @@ function calcAll() {
 	getX2();
 }
 calcAll();
+
 // Exercise 5
 // Exercise 6
 let price;
@@ -66,7 +68,21 @@ function calcDiscount(discount) {
 	console.log(discount)
 }
 calcDiscount();
+
 // Exercise 7
+let nail = [];
+nail.push(Number(prompt("Type how many nail shed was sold")));
+nail.push(Number(prompt("Type how many square nails was sold")));
+
+function nailValue() {
+	let nailShed = 1.05;
+  let squareNail = 0.51;
+  total = nail[0] * nailShed + nail[1] * squareNail;
+  commission = 10 * total / 100;
+  console.log(`The total sales value was ${total}, and the commission percentage is: ${commission}`);
+}
+nailValue();
+
 // Exercise 8
 let coins = [];
 coins.push(Number(prompt("Type how many coins of 0,25 cents.")));
