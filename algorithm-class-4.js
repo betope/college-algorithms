@@ -41,3 +41,33 @@ function verifyReq() {
   }
 }
 verifyReq();
+
+// Exercise 4
+function calcNewSalary(jobCode, currentWage, newWage) {
+  jobCode = prompt("Type the code corresponding the job, 1, 2, 3, 4 or 5");
+  currentWage = Number(prompt("Type the current wage from the job"));
+  switch(jobCode) {
+  	case '1':
+    	newWage = (50 * currentWage / 100) + currentWage;
+    	console.log(`CLERK, increase of: ${newWage - currentWage}, NEW WAGE: ${newWage}`);
+    break;
+    case '2':
+    	newWage = (35 * currentWage / 100) + currentWage;
+    	console.log(`SECRETARY, increase of: ${newWage - currentWage}, NEW WAGE: ${newWage}`);
+    break;
+    case '3':
+    	newWage = (20 * currentWage / 100) + currentWage;
+      console.log(`CASHIER, increase of: ${newWage - currentWage}, NEW WAGE: ${newWage}`);
+    break;
+    case '4':
+    	newWage = (10 * currentWage / 100) + currentWage;
+      console.log(`MANAGER, increase of: ${newWage - currentWage}, NEW WAGE: ${newWage}`);
+    break;
+    case '5':
+			  console.log(`The Director won't receive a salary increase`)
+    break;
+    	default:
+      	console.log("None code was insert in the program.")
+  }
+}
+calcNewSalary();
