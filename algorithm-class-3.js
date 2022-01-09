@@ -68,15 +68,21 @@ let objs = {
   ballTime: null,
   tireTime: null
 };
-
- for(n = 0; n <= 0; n++) {
+  for(n = 0; n <= 0; n++) {
   objs.wheelDCovered = Number(prompt("Type wheel distance covered"))
   objs.ballDCovered =  Number(prompt("Type ball distance covered"))
   objs.tireDCovered =  Number(prompt("Type tire distance covered"))
   objs.wheelTime =  Number(prompt("Type the wheel needed time"))
   objs.ballTime =  Number(prompt("Type the ball needed time"))
   objs.tireTime =  Number(prompt("Type the tire needed time"))
+ }
+function calculation() {
+	wheelSpeed = objs.wheelDCovered / objs.wheelTime;
+  ballSpeed = objs.ballDCovered / objs.ballTime;
+  tireSpeed = objs.tireDCovered / objs.tireTime;
+  console.log(`The wheel speed is: ${wheelSpeed}, the ball speed is: ${ballSpeed} and the tire speed is: ${tireSpeed}`)
 }
+calculation();
 // Exercise 6
 let price;
 price = Number(prompt("Type the product price"));
