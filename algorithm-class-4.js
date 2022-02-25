@@ -71,3 +71,31 @@ function calcNewSalary(jobCode, currentWage, newWage) {
   }
 }
 calcNewSalary();
+
+// Exercise 5
+let a, b, c;
+a = Number(prompt("Type the value of A"));
+b = Number(prompt("Type the value of B"));
+c = Number(prompt("Type the value of C"));
+
+function getDelta(delta) {
+	delta = b * b - (4 * a * c);
+	console.log(delta);
+  if (delta < 0) {
+    console.log("A raiz não pode ser calculdada, o valor de delta é negativo.")
+  }
+}
+function getX1(x1) {
+	x1 = (-b + Math.sqrt(delta)) / 2 * a;
+	console.log(x1);
+}
+function getX2(x2) {
+	x2 = (-b - Math.sqrt(delta)) / 2 * a;
+	console.log(x2);
+}
+function calcAll() {
+	getDelta();
+	getX1();
+	getX2();
+}
+calcAll();
